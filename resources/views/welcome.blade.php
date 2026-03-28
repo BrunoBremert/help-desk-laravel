@@ -148,7 +148,7 @@
                     <span class="text-xl font-bold">Help Desk</span>
                 </div>
                 <div class="text-gray-400 text-sm">
-                    © 2024 Help Desk. Todos os direitos reservados.
+                    © 2026 Help Desk. Todos os direitos reservados.
                 </div>
             </div>
         </div>

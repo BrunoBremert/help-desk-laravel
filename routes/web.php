@@ -25,4 +25,7 @@ Route::get('/produtos', function () {
     return view('products');
 });
 
-Route::get('/dashboard', [\App\Http\Controllers\TicketController::class, 'index']);
+Route::get('/dashboard', [\App\Http\Controllers\TicketController::class, 'index'])->name('dashboard');
+
+Route::get('/tickets/create', [\App\Http\Controllers\TicketController::class, 'create'])->name('tickets.create');
+Route::post('/tickets', [\App\Http\Controllers\TicketController::class, 'store'])->name('tickets.store');
