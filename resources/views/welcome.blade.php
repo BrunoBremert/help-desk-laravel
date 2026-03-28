@@ -9,7 +9,6 @@
 </head>
 <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
 
-    <!-- Header -->
     <header class="bg-white shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-6">
@@ -30,7 +29,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
@@ -42,7 +40,7 @@
                     Abra tickets, acompanhe o progresso e resolva problemas de forma eficiente.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="/dashboard" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition duration-200">
+                    <a href="/tickets/create" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition duration-200">
                         <i class="fas fa-plus-circle mr-2"></i>Abrir Novo Ticket
                     </a>
                     <a href="#features" class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-50 transition duration-200">
@@ -53,7 +51,6 @@
         </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -64,7 +61,6 @@
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
                 <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition duration-200">
                     <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-ticket-alt text-2xl text-blue-600"></i>
@@ -74,8 +70,7 @@
                         Abra, edite e acompanhe o status de todos os seus tickets de suporte em tempo real.
                     </p>
                 </div>
-
-                <!-- Feature 2 -->
+                
                 <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition duration-200">
                     <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-comments text-2xl text-green-600"></i>
@@ -86,7 +81,6 @@
                     </p>
                 </div>
 
-                <!-- Feature 3 -->
                 <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition duration-200">
                     <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-chart-line text-2xl text-purple-600"></i>
@@ -100,7 +94,6 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 text-center">
@@ -124,7 +117,6 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="py-16 bg-blue-600">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h3 class="text-3xl font-bold text-white mb-4">
@@ -139,7 +131,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center">
