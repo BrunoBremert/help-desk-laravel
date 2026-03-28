@@ -24,3 +24,5 @@ Route::get('/contact', function () {
 Route::get('/produtos', function () {
     return view('products');
 });
+
+Route::get('/dashboard', [\App\Http\Controllers\TicketController::class, 'index']);
