@@ -35,9 +35,7 @@
                 <h2 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
                     Bem-vindo ao <span class="text-blue-600">Help Desk</span>
                 </h2>
-                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                    Sistema completo para gerenciamento de tickets de suporte técnico.
-                    Abra tickets, acompanhe o progresso e resolva problemas de forma eficiente.
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">Sistema completo para gerenciamento de tickets de suporte técnico. Abra tickets, acompanhe o progresso e resolva problemas de forma eficiente.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="/tickets/create" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 transition duration-200">
